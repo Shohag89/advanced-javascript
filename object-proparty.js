@@ -6,6 +6,6 @@ const players = [
 ];
 const names = players.map(p => p.name);
 const ids = players.map(p => p.id);
-const bigger = players.filter(p => p.id>15);
-const bigger1 = players.find(p => p.id>15);
+const bigger = players.filter(p => p.id > 15);
+const bigger1 = players.find(p => p.id > 15);
 console.log(bigger1);
